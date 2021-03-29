@@ -1,0 +1,64 @@
+body{
+
+    text-align: center;
+
+    border: black 2px solid;
+
+    border-radius: 0.8rem;
+
+    font-family: 'Noto Sans JP', sans-serif;
+
+
+}
+
+
+
+
+
+img{
+    text-align: center;
+}
+
+
+a{
+    border: 2px solid black;
+
+    border-radius: 0.8rem;
+
+    box-sizing: border-box;
+
+    padding: 0.5rem;
+
+    line-height:3rem;
+
+    margin: 2px;
+
+
+}
+
+a:hover{
+
+    background-color:red;
+
+}
+
+h1{
+
+    margin-bottom: 3rem;
+
+}
+
+@media (max-width: 900px) {
+
+
+    a{
+
+        display: block;
+        line-height: 0.5rem;
+        padding: 1rem;
+
+    }   
+
+}
+
+
